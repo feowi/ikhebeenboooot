@@ -21,7 +21,14 @@ body {
 .logo {
   width: 60px;
   height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
 }
+.container h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
 h1, h2 {
   color: #ffffff;
