@@ -4,56 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Madleen Boat Tracker</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="container">
-    <h1>Track the Madleen Boat</h1>
-    
+  <div class="container">
+    <h1>Madleen Boat Tracker</h1>
+
     <div class="button-row">
-      <a href="https://live.garmin.com/session/e162481b-5edc-800e-a915-dbc858405701/token/11A26E3BB58A3E22459C99D6B2E5E5D" target="_blank" class="main-btn">
-        Garmin Live Tracking
-      </a>
-      <a href="https://www.marinetraffic.com/en/ais/home/shipid:9599795/zoom:10" target="_blank" class="main-btn">
-        MarineTraffic View
-      </a>
+      <a href="https://live.garmin.com/session/e162481b-5edc-800e-a915-dbc858405701/token/11A26E3BB58A3E22459C99D6B2E5E5D" target="_blank" class="btn">Live Garmin</a>
+      <a href="https://www.marinetraffic.com/en/ais/home/shipid:9599795/zoom:10" target="_blank" class="btn">MarineTraffic</a>
     </div>
 
-    <h2>Follow Us</h2>
-    <div class="social-row">
-      <a href="https://facebook.com/" target="_blank" class="social-btn facebook">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://instagram.com/" target="_blank" class="social-btn instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://tiktok.com/" target="_blank" class="social-btn tiktok">
-        <i class="fab fa-tiktok"></i>
-      </a>
-      <a href="https://youtube.com/" target="_blank" class="social-btn youtube">
-        <i class="fab fa-youtube"></i>
-      </a>
+    <div class="social-buttons">
+      <a href="https://x.com/GazaFFlotilla" target="_blank" class="btn">Twitter/X</a>
+      <a href="https://facebook.com" target="_blank" class="btn">Facebook</a>
+      <a href="https://instagram.com" target="_blank" class="btn">Instagram</a>
+      <!-- Add more socials as needed -->
+    </div>
+
+    <h2>Latest Tweet</h2>
+    <div class="tweet-container">
+      <blockquote class="twitter-tweet" data-theme="dark">
+        <a href="https://twitter.com/GazaFFlotilla/status/1797952459710154972"></a>
+      </blockquote>
     </div>
   </div>
 
-<h2>Latest Tweets</h2>
-<div class="tweet-container">
-  <a class="twitter-timeline"
-     href="https://twitter.com/GazaFFlotilla"
-     data-tweet-limit="5"
-     data-theme="light"
-     data-chrome="noheader nofooter noborders"
-     data-width="500"
-     data-height="600">
-    Tweets by GazaFFlotilla
-  </a>
-</div>
-
-<!-- Twitter script (required) -->
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-  <script src="script.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
