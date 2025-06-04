@@ -73,7 +73,7 @@ h2 {
 .youtube { background-color: #ff0000; }
 
 .tweet-container {
-  margin-top: 40px;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
