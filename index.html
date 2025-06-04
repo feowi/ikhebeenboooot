@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Embedded Page</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madleen Boat Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="container">
-    <h1>Live Garmin Session</h1>
-    <div id="iframe-wrapper">
-      <div id="fallback">
-  <p>Click below to open the Garmin live tracking session:</p>
-  <a href="https://live.garmin.com/session/e162481b-5edc-800e-a915-dbc858405701/token/11A26E3BB58A3E22459C99D6B2E5E5D" target="_blank" class="open-btn">Open Live Tracking</a>
-</div>
+    <h1>Track the Madleen Boat</h1>
+    
+    <div class="button-row">
+      <a href="https://live.garmin.com/session/e162481b-5edc-800e-a915-dbc858405701/token/11A26E3BB58A3E22459C99D6B2E5E5D" target="_blank" class="main-btn">
+        Garmin Live Tracking
+      </a>
+      <a href="https://www.marinetraffic.com/en/ais/home/shipid:9599795/zoom:10" target="_blank" class="main-btn">
+        MarineTraffic View
+      </a>
+    </div>
+
+    <h2>Follow Us</h2>
+    <div class="social-row">
+      <a href="https://facebook.com/" target="_blank" class="social-btn facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://instagram.com/" target="_blank" class="social-btn instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com/" target="_blank" class="social-btn tiktok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://youtube.com/" target="_blank" class="social-btn youtube">
+        <i class="fab fa-youtube"></i>
+      </a>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
