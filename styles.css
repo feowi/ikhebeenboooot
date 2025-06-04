@@ -15,15 +15,15 @@ body {
 .header {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
+  margin-bottom: 20px;
 }
 
 .logo {
   width: 60px;
   height: auto;
-  margin-right: 10px;
-  vertical-align: middle;
 }
+
 .container h1 {
   display: inline-block;
   vertical-align: middle;
